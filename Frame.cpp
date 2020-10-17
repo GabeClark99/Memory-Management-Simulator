@@ -4,14 +4,14 @@
 
 using std::string;
 
-Frame::Frame()
+Frame::Frame(int id)
 {
-	this->id = "";
+	this->id = id;
 	this->storedPage = -1;
 	return;
 }
 
-void Frame::SetId(string id)
+void Frame::SetId(int id)
 {
 	this->id = id;
 	return;
@@ -23,7 +23,7 @@ void Frame::SetStoredPage(int storedPage)
 	return;
 }
 
-string Frame::GetId()
+int Frame::GetId()
 {
 	return this->id;
 }

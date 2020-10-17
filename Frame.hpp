@@ -3,19 +3,17 @@
 
 #include <string>
 
-using std::string;
-
 class Frame
 {
 	private:
-		string id;
+		int id;
 		int storedPage;
 
 	public:
-		Frame();
-		void SetId(string id);
+		Frame(int id);
+		void SetId(int id);
 		void SetStoredPage(int storedPage);
-		string GetId();
+		int GetId();
 		int GetStoredPage();
 };
 
