@@ -20,7 +20,6 @@ class MemAllocSim
 		
 	public:
 		MemAllocSim();
-		~MemAllocSim(); // clear any dynamically allocated memory
 		
 		string GetPagesString();
 		string GetFramesString();
