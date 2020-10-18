@@ -67,7 +67,7 @@ void MemAllocSim::InsertNextPage()
 
 bool MemAllocSim::WouldFault(int page)
 {
-	for(int i = 0; i < framesVec.size(); ++i) // search the current frames to see if the page is already loaded into memory
+	for(unsigned int i = 0; i < framesVec.size(); ++i) // search the current frames to see if the page is already loaded into memory
 	{
 		if(framesVec.at(i).GetStoredPage() == page)
 		{
@@ -93,7 +93,7 @@ void MemAllocSim::UpdateFrameIndexOfOldestPage()
 string MemAllocSim::GetPagesInMemory()
 {
 	string format = "\t";
-	for(int i = 0; i < this->framesVec.size(); ++i)
+	for(unsigned int i = 0; i < this->framesVec.size(); ++i)
 	{
 		format += std::to_string( this->framesVec.at(i).GetStoredPage() );
 		format += "\t";
