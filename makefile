@@ -11,4 +11,4 @@ Frame.o : Frame.cpp Frame.hpp
 	g++ -Wall -c Frame.cpp
 
 clean : 
-	rm *.o project3.exe
+	rm *.o project1.exe
