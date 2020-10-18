@@ -2,7 +2,7 @@
 #include "Frame.hpp"
 
 #include <sstream> // used for converting frame and page strings
-		#include <iostream>
+
 using std::string;
 using std::vector;
 
