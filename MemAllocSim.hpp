@@ -1,3 +1,5 @@
+// Gabriel Clark
+
 #ifndef MEMALLOCSIM_HPP
 #define MEMALLOCSIM_HPP
 

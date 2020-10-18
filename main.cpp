@@ -1,3 +1,5 @@
+// Gabriel Clark
+
 #include "MemAllocSim.hpp"
 #include <iostream>
 

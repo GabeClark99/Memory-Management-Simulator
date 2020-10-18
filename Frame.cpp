@@ -1,3 +1,5 @@
+// Gabriel Clark
+
 #include "Frame.hpp"
 
 #include <string>
